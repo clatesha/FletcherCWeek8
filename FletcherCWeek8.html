@@ -1,6 +1,8 @@
-//Cheron Fletcher
-//Week 8, Oct 12, 2020
-//What went wrong? Troubleshooting JavaScript
+<!-- 
+Cheron Fletcher
+Week 8, Oct 12, 2020
+What went wrong? Troubleshooting JavaScript 
+-->
 
 <!DOCTYPE html>
 <html>
@@ -35,6 +37,8 @@
     <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you
         if your guess was too high or too low.</p>
 
+
+
     <div class="form">
         <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
         <input type="submit" value="Submit guess" class="guessSubmit">
@@ -49,6 +53,8 @@
 </body>
 
 <script>
+
+
     let randomNumber = Math.floor(Math.random() * 100) + 1;
 
     const guesses = document.querySelector('.guesses');
